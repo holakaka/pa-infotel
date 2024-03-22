@@ -84,7 +84,7 @@ export default function Login() {
       </div>
       <div className="h-full w-3/5 flex flex-col justify-center items-center">
         <Image
-          src="./logo.png"
+          src="/logo.png"
           width={300}
           height={300}
           alt="Picture of the author"

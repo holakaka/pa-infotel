@@ -2,6 +2,7 @@
 import { ReactElement } from "react";
 import { IoMdDownload } from "react-icons/io";
 import { PeriodDetail } from "@/app/sampledata/PeriodDetail";
+import NestedTable from "./NestedTable";
 
 const data = PeriodDetail;
 export default function Page(): ReactElement {
@@ -13,6 +14,7 @@ export default function Page(): ReactElement {
         </div>
       </div>
       <div className="flex-1 relative">
+        <NestedTable/>
       </div>
     </div>
   );
