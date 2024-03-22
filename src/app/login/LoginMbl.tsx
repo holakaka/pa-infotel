@@ -45,7 +45,7 @@ export default function LoginMbl() {
     <div className="h-screen w-screen bg-gradient-to-b from-white to-pa-primary flex flex-col justify-center items-center">
       <div className="h-max w-max max-w-[80dvw] flex flex-col justify-center items-center mt-10">
         <Image
-          src="/logo.png"
+          src="./logo.png"
           width={150}
           height={150}
           alt="Picture of the author"

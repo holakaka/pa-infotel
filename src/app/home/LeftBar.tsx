@@ -46,7 +46,7 @@ export default function LeftBar(): ReactElement {
         >
           <div className="h-full w-max max-w-[350px] shrink-0">
             <Image
-              src="/logo.png"
+              src="./logo.png"
               width={300}
               height={300}
               alt="Picture of the author"
